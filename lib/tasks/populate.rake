@@ -62,7 +62,7 @@ namespace :db do
     cat.children.create name: "Technology"
     cat.children.create name: "Travel"
     cat.children.create name: "Other"
-    
+   end 
   
   desc "Add categories to users"
   task :add_categories => :environment do
