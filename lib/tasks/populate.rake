@@ -62,7 +62,12 @@ namespace :db do
     cat.children.create name: "Technology"
     cat.children.create name: "Travel"
     cat.children.create name: "Other"
+<<<<<<< HEAD
    end 
+=======
+  end
+
+>>>>>>> Delete duplicate categories showing up on sign-in page
   
   desc "Add categories to users"
   task :add_categories => :environment do
@@ -115,5 +120,3 @@ namespace :db do
 	  end
   end
 end
-    
-    
