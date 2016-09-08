@@ -8,13 +8,13 @@
 development:
 
   adapter: postgresql
-  database: ultrakast
+  database: ultrakast_development
  
   pool: 5
   timeout: 5000
   #username: root
   username: postgres
-  password: postgres
+  password: password
 
   #adapter: mysql
   adapter: postgresql
@@ -24,30 +24,30 @@ development:
   timeout: 5000
   #username: root
   username: postgres
-  password: harvs99
+  password: password
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
-test:
-development:
-  #adapter: mysql
-  adapter: postgresql
-  database: ultrakast
-  pool: 5
-  timeout: 5000
-  #username: root
-  username: rails
-  password: w3bpa55
+# test:
+# development:
+#   #adapter: mysql
+#   adapter: postgresql
+#   database: ultrakast_test
+#   pool: 5
+#   timeout: 5000
+#   #username: root
+#   username: postgres
+#   password: password
 
-production:
-development:
-  #adapter: mysql
-  adapter: postgresql
-  database: ultrakast
-  pool: 5
-  timeout: 5000
-  #username: root
-  username: rails
-  password: w3bpa55
+# production:
+# development:
+#   #adapter: mysql
+#   adapter: postgresql
+#   database: ultrakast
+#   pool: 5
+#   timeout: 5000
+#   #username: root
+#   username: rails
+#   password: w3bpa55
 
