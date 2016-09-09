@@ -155,7 +155,7 @@ p {
 /* footer */
 
 footer {
-  background: #152133;
+  background: #B22222;
 	margin-top: 45px;
   width: 100%;
 	padding-top: 15px;
@@ -338,17 +338,17 @@ input, textarea, select, .uneditable-input {
 
 .favorite-header {
   padding: 0 10px;
-  border-left: 1px solid #152133;
+  border-left: 1px solid #B22222;
 }
 
 .comments-header {
   padding: 0 10px;
-  border-left: 1px solid #152133;
+  border-left: 1px solid #B22222;
 }
 
 .rekast-link {
 	padding-left: 10px;
-  border-left: 1px solid #152133;
+  border-left: 1px solid #B22222;
 }
 
 .rekast-form {
@@ -441,7 +441,7 @@ a.expand-link:hover, a.contract-link:hover {
 
 #category_links li {
 	margin-top: 10px;
-	border: 2px #152133 solid;
+	border: 2px #B22222 solid;
 	padding: 10px 0 10px 10px;
 }
 
@@ -470,7 +470,7 @@ a.expand-link:hover, a.contract-link:hover {
 .parent-link {
   font-size: 1.4em;
   font-weight: bold;
-  color: #152133;;
+  color: #B22222;;
 }
 
 .comment {
@@ -500,7 +500,7 @@ a.expand-link:hover, a.contract-link:hover {
 	.parent {
 		font-size: 1.7em;
 		font-weight: bold;
-		color: #152133;
+		color: #B22222;
 		margin-bottom: 10px;
 	}
 	
@@ -537,7 +537,7 @@ a.expand-link:hover, a.contract-link:hover {
 
 
 header {
-	background-color: #152133;
+	background-color: #B22222;
 	width: 100%;
 	
 	img {
@@ -629,16 +629,16 @@ nav {
 }
 
 nav ul.nav li a.alert-badge {
-    background:         radial-gradient( 5px -9px, circle, white 8%, #91d6e6 26px );
-    background:    -moz-radial-gradient( 5px -9px, circle, white 8%, #91d6e6 26px );
-    background:     -ms-radial-gradient( 5px -9px, circle, white 8%, #91d6e6 26px );
-    background:      -o-radial-gradient( 5px -9px, circle, white 8%, #91d6e6 26px );
-    background: -webkit-radial-gradient( 5px -9px, circle, white 8%, #91d6e6 26px );
+    background:         radial-gradient( 5px -9px, circle, white 8%, #1E90FF 26px );
+    background:    -moz-radial-gradient( 5px -9px, circle, white 8%, #008000 26px );
+    background:     -ms-radial-gradient( 5px -9px, circle, white 8%, #008000 26px );
+    background:      -o-radial-gradient( 5px -9px, circle, white 8%, #008000 26px );
+    background: -webkit-radial-gradient( 5px -9px, circle, white 8%, #008000 26px );
     background-color: #91d6e6;
     border: 2px solid white;
     border-radius: 12px; /* one half of ( (border * 2) + height + padding ) */
     box-shadow: 1px 1px 1px black;
-    color: #152133;
+    color: #008000;
     font: bold 15px/13px Helvetica, Verdana, Tahoma;
     height: 16px; 
     padding: 4px 3px 0 3px;
@@ -895,27 +895,27 @@ li.li-50 {
 }
 
 div.div-1 {
-  border: 7px solid #152133;
+  border: 7px solid #008000;
 }
 
 div.div-8 {
-  border: 7px solid #152133;
+  border: 7px solid #008000;
 }
 
 div.div-16 {
-  border: 7px solid #152133;
+  border: 7px solid #008000;
 }
 
 div.div-28 {
-  border: 7px solid #152133;
+  border: 7px solid #008000;
 }
 
 div.div-37 {
-  border: 7px solid #152133;
+  border: 7px solid #008000;
 }
 
 div.div-50 {
-  border: 7px solid #152133;
+  border: 7px solid #008000;
 }
 
 #left-sidebar, #right-sidebar {
@@ -944,7 +944,7 @@ aside#right-sidebar {
 	margin-right: 5px;
   background-color: #91d6e6;
   border: 2px solid white;
-  color: #152133;
+  color: #008000;
   font: bold 15px/13px Helvetica, Verdana, Tahoma;
   height: 16px; 
   padding: 4px 3px 2px 3px;
@@ -961,9 +961,9 @@ aside#right-sidebar {
 
 .child-unread {
 	display: inline;
-  background-color: #91d6e6;
+  background-color: #008000;
   border: 2px solid white;
-  color: #152133;
+  color: #008000;
   font: bold 13px/11px Helvetica, Verdana, Tahoma;
   height: 13px; 
   padding: 1px 3px;
@@ -1035,5 +1035,5 @@ aside#right-sidebar {
 
 input:focus, textarea:focus
 {
-background-color:#FFFF66;
+background-color:#008000;
 }
